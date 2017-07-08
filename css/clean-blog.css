@@ -1,38 +1,46 @@
 
+html{
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: black;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+}
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: inherit, serif, monospace;
   font-size: 20px;
-  color: #333333;
+  color: black;
 }
 p {
   line-height: 1.5;
   margin: 30px 0;
 }
 p a {
-  text-decoration: underline;
+  text-decoration:underline;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+h6,
+  font-family: monospace;
+  font-weight: 1000;
 }
 a {
   color: #333333;
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: black;
 }
 a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
 blockquote {
-  color: #777777;
+  color: black;
   font-style: italic;
 }
 hr.small {
@@ -70,7 +78,7 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: dodgerblue;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
@@ -86,10 +94,11 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li ul.dropdown-menu a {
-    color: #333333;
+    color: black;
   }
   .navbar-custom .nav li ul.dropdown-menu a:hover,
   .navbar-custom .nav li ul.dropdown-menu a:focus {
+    background-color: white;
     color: #0085A1;
   }
 }
@@ -122,14 +131,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085A1;
+    color: white;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #333333;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085A1;
+    color: white;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -139,6 +148,7 @@ hr.small {
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+    
 }
 .intro-header {
   background-color: #777777;
@@ -149,7 +159,8 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
-}
+    width: 100%;
+   }
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
@@ -170,11 +181,11 @@ hr.small {
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 100px;
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 100px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -208,7 +219,7 @@ hr.small {
   font-size: 20px;
 }
 .intro-header .post-heading .meta a {
-  color: white;
+  color: orchid;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
@@ -350,7 +361,7 @@ form .row:first-child .floating-label-form-group {
 .btn-default:focus {
   background-color: #0085A1;
   border: 1px solid #0085A1;
-  color: white;
+  color: black;
 }
 .pager {
   margin: 20px 0 0;
@@ -363,7 +374,7 @@ form .row:first-child .floating-label-form-group {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 15px 25px;
-  background-color: white;
+  background-color: red;
   border-radius: 0;
 }
 .pager li > a:hover,
@@ -401,4 +412,43 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
-
+.bosluk{
+    margin-bottom: 20px
+}
+post2 > a {
+  color: #333333;
+}
+.post2 > a:hover,
+.post2 > a:focus {
+  text-decoration: none;
+  color: #0085A1;
+}
+.post2 > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.post2 > a > .post-subtitle {
+  margin: 0;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.post2 > .post-meta {
+  color: #777777;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+}
+.post2 > .post-meta > a {
+  text-decoration: none;
+  color: #333333;
+}
+.post2 > .post-meta > a:hover,
+.post2 > .post-meta > a:focus {
+  color: #0085A1;
+  text-decoration: underline;
+}
+.container-fluid
+{
+    color: white;
+}
